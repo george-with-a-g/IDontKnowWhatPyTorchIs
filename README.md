@@ -22,5 +22,5 @@
 
 **Determinant of a Matrix**
 
-**singular value decomposition of a Matrix **
+**singular value decomposition of a Matrix**
 
