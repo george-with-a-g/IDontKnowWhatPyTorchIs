@@ -1,5 +1,4 @@
 # Introduction to PyTorch
----
 ## Relevant knowledge
 
 **_Matrix_**
