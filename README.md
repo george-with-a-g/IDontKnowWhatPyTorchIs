@@ -1,6 +1,7 @@
 #Introduction to PyTorch
 ---
-##Relevant knowledge\n
+##Relevant knowledge
+
 **_Matrix_**
 - an array of numbers, symbols or expressions arranged in rows and columns.
 - can be used to represent linear transformations, such as rotations or scaling, and to solve systems of linear equations.
