@@ -1,6 +1,6 @@
-#Introduction to PyTorch
+# Introduction to PyTorch
 ---
-##Relevant knowledge
+## Relevant knowledge
 
 **_Matrix_**
 - an array of numbers, symbols or expressions arranged in rows and columns.
