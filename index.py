@@ -3,6 +3,7 @@ Tensors
     - Inputs, Outputs and Learning weights are all in the form of Tensors
         - A multidimensional array with a lot of extra bells and whistles.
 '''
+import torch
 
 z = torch.zeros(5,3)#This creates a 5 X 3 Matrix filled with Zeros.
 #print(z)
@@ -49,3 +50,7 @@ print(threes.shape)
 r1 = torch.rand(2,3)
 r2 = torch.rand(3,2)
 r3 = r1 + r2 
+
+
+
+
