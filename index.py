@@ -54,20 +54,30 @@ Operations between scalars and a tensor are distributed over all the cells of th
 '''
 Mathematical operations available on PyTorch tensors
 '''
-r = torch.rand(2,2) - 0.5 * 2# creating a random tensor and adjusting it's values between -1 and 1.
+# creating a random tensor and adjusting it's values between -1 and 1.
+r = torch.rand(2,2) - 0.5 * 2
 print('A random matrix, r:')
 print(r)
 
-print(torch.abs(r))#getting the absolute value of it to get all of them to turn positive.
+#getting the absolute value of it to get all of them to turn positive.
+print(torch.abs(r))
 
-print(torch.asin(r))#getting the inverse sine of it to get an angle back. Will compute and inverse sine of each element in r and return a new tensor of the same shape with the result
+#getting the inverse sine of it to get an angle back. Will compute and inverse sine of each element in r and return a new tensor of the same shape with the result
+print(torch.asin(r))
 
 # can do linear algebra operations like determinant and singular value decomposition 
-print(torch.det(r))#determinant of r
-print(torch.svd(r))#singular value decomposition of r
+
+#determinant of r
+print(torch.det(r))
+
+#singular value decomposition of r
+print(torch.svd(r))
 
 # can do statistical and aggregate operations
-print(torch.std_mean(r))#will print out the average and standard deviation of r
 
-print(torch.max(r))# will print out the maximum value of r
+#will print out the average and standard deviation of r
+print(torch.std_mean(r))
+
+# will print out the maximum value of r
+print(torch.max(r))
 
