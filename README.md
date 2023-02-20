@@ -18,9 +18,9 @@
 | 2 4 |
 | 6 8 |
 
-** Standard deviation **
+**Standard deviation**
 
-** Determinant of a Matrix **
+**Determinant of a Matrix**
 
-** singular value decomposition of a Matrix  **
+**singular value decomposition of a Matrix **
 
