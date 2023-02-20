@@ -19,6 +19,16 @@
 | 6 8 |
 
 **Standard deviation**
+- The standard deviation of a matrix is a measure of the amount of variation or dispersion in the values of the matrix elements.
+- To calculate the standard deviation of a matrix:
+    - You first calculate the mean of the matrix elements,
+    - Calculate the sum of the squared differences between each element and the mean.
+    - This sum is then divided by the number of elements in the matrix minus one,
+    - The square root of the result is taken to obtain the standard deviation.
+- To calculate in PyTorch.
+    ```
+    print(torch.std_mean(r))
+    ```
 
 **Determinant of a Matrix**
 
